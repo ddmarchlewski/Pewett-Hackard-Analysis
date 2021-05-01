@@ -27,7 +27,7 @@ CREATE TABLE dept_manager (
 	PRIMARY KEY (emp_no, dept_no)
 );
 
-CREATE TABLE salraies (
+CREATE TABLE salaries (
 	emp_no INT NOT NULL,
 	salary INT NOT NULL, 
 	from_date DATE NOT NULL,
@@ -55,9 +55,11 @@ CREATE TABLE titles (
 	PRIMARY KEY (emp_no, title, from_date)
 );
 
-select * FROM departments
-select * FROM employees;
-select * FROM dept_manager;
-select * FROM salraies;
-select * FROM dept_emp;
-select * FROM titles;
+DROP TABLE salraies
+
+SELECT * FROM departments
+SELECT * FROM dept_emp
+SELECT * FROM dept_manager
+SELECT * FROM employees
+SELECT * FROM salaries
+SELECT * FROM titles
