@@ -13,7 +13,7 @@ Lastly, we wrote a query to gather data from the dept_emp table and employees da
 - In the retirement_titles table, we can see all employees that are eligible to retire. We can also see how long they worked in each position. 
 - In the unique_titles table, we can see the most recent title for employees of retirement age.
 - The retiring_titles table shows most of the employees that are of retirement age have senior level titles. 
-![retiring_titles](https://user-images.githubusercontent.com/80054925/116826128-1bfd7800-ab58-11eb-9054-12784c919205.png)
+ ![retiring_titles](https://user-images.githubusercontent.com/80054925/116826128-1bfd7800-ab58-11eb-9054-12784c919205.png)
 - The image below, which is the head of the mentorship_eligibilty csv, shows employees that are eligible to join a mentorship program. This image shows most of the employees have senior level titles. 
 ![mentorship_eligibilty](https://user-images.githubusercontent.com/80054925/116826180-5ff07d00-ab58-11eb-8832-a46aaf2cc4af.png)
 
